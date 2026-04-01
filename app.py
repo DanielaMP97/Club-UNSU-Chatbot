@@ -17,7 +17,7 @@ Esta herramienta utiliza **Inteligencia Artificial (Random Forest)** entrenado
 con 744 registros históricos (2023-2025) para predecir la duración de categorías 
 y optimizar la logística de torneos.
 
-**Precisión del modelo**: R² = 98.1% | Error promedio = 33.8 segundos
+**Precisión del modelo**: R² = 97.77% | Error promedio = 31.85 segundos
 """)
 
 # Cargar recursos
@@ -116,7 +116,7 @@ if st.sidebar.button("🚀 Generar Predicción", type="primary"):
         with col2:
             st.metric(
                 label="📊 Confianza del Modelo",
-                value="98.1%",
+                value="97.77%",
                 help="Coeficiente de determinación R²"
             )
         
@@ -177,7 +177,7 @@ with st.expander("Preguntas Frecuentes"):
     considerando modalidad, nivel, sexo, edad y número de competidores.
     
     **¿Qué tan preciso es el sistema?**  
-    El modelo tiene un R² de 98.1%, con un error promedio de 33.8 segundos.
+    El modelo tiene un R² de 97.77%, con un error promedio de 31.85 segundos.
     
     **¿Puedo confiar en las predicciones?**  
     Sí, pero siempre agrega un buffer de +10 minutos para imprevistos.
